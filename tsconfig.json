@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "module": "es6",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "./src/api"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
